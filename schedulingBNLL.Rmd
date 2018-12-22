@@ -1,0 +1,38 @@
+---
+title: "BNLL Sheduling App (Offline)"
+author: "Craig O'Neill"
+date: "December 20, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Libraries
+
+```{r}
+library(tidyverse)
+library(timevis)
+library(lubridate)
+
+
+```
+
+#Timevis Package Test - Basic Calendar
+
+Set up 1 Job with certain job based requirements
+Set up Employee Resource Pool
+Set up Employee Time Off (Exceptions Pool)
+
+```{r}
+
+
+Jobs <- read.csv("Jobs.csv")
+Employees <- read.csv("EmployeeResources.csv")
+TimeOff <- read.csv("DaysOff.csv")
+
+
+
+```
+
